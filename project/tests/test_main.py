@@ -26,3 +26,12 @@ def test_divide():
     assert divide(9, 3) == 3
     with pytest.raises(ValueError):
         divide(5, 0)
+
+def test_floor_division():
+    """Test for floor division of two numbers in app.main module."""
+    assert floor_division(7, 2) == 3
+    assert floor_division(7.0, 2) == 3.0
+    assert floor_division(-7, 2) == -4
+    assert floor_division(5, 2.0) == 2.0
+    with pytest.raises(ValueError):
+        floor_division(5, 0)
