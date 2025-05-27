@@ -23,7 +23,7 @@ This project implements a Jenkins CI/CD pipeline for a Python application. It in
 
 <img width="838" alt="image" src="https://github.com/user-attachments/assets/296fca8e-9071-4449-8378-d0bcb9d6133d" />
 
-Pipeline URL: [Jenkins](https://mink-welcome-pheasant.ngrok-free.app/job/First_Project/)
+Pipeline URL: [Jenkins](https://ideal-penguin-strangely.ngrok-free.app/job/python-project/)
 
 ### 1. **Checkout**
 - Clones the main branch from the GitHub repository.
