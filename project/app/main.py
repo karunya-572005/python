@@ -17,7 +17,13 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
+def floor_division(a, b):
+    if b ==0:
+        raise ValueError("Cannot divide by zero")
+    return a // b
+
 print("Sum of 5 and 3 is:"+ str(add(5, 3)))
 print("Difference of 5 and 3 is:"+ str(subtract(5, 3)))
 print("Product of 5 and 3 is:"+ str(multiply(5, 3)))
 print("Quotient of 5 and 3 is:"+ str(divide(5, 3)))
+print("floor division of 5 and 2 is:"+ str(floor_division(5,2)))
