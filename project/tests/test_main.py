@@ -1,7 +1,7 @@
 """Unit tests for the app.main module."""
 
 import pytest
-from app.main import add, subtract, multiply, divide
+from app.main import add, subtract, multiply, divide, floor_division
 
 def test_add():
     """Test for addition of two numbers in app.main module."""
