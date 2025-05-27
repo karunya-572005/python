@@ -94,7 +94,7 @@ pipeline {
                     script {
                         def tagName = "v1.0.${env.BUILD_NUMBER}"
                         def releaseName = "Release ${tagName}"
-                        def repo = "SugumarSrinivasan/Python"
+                        def repo = "karunya-572005/python"
                         def artifactPath = "project/dist/app.zip" // Change this to your artifact path
         
                         sh """#!/bin/bash
@@ -165,7 +165,7 @@ pipeline {
                         )
                         echo "Approved by: ${userInput['Deployer']} for environment: ${userInput['Environment']}"
         
-                        def repo = "SugumarSrinivasan/Python"
+                        def repo = "karunya-572005/python"
                         def artifactName = "app.zip"
         
                         sh """#!/bin/bash
