@@ -197,6 +197,4 @@ Regardless of build result:
 - [Python Tutorial for Beginners](https://www.youtube.com/watch?v=t8pPdKYpowI&list=PLy7NrYWoggjxiwNyXNEM8gt1d5Kd2Uh-x)
 - [Run Jenkins in Docker Container](https://www.youtube.com/watch?v=pMO26j2OUME)
 
-## ✍️ Author
 
-Sugumar Srinivasan
